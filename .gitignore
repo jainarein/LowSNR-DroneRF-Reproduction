@@ -1,0 +1,16 @@
+# Virtual environment - never commit, recreated via requirements.txt
+venv/
+
+# Large data files - regenerated via scripts, not stored in repo
+data/
+
+# Kaggle credentials - NEVER commit API keys
+kaggle.json
+*.kaggle/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# VSCode settings (optional - personal editor config)
+.vscode/
