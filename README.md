@@ -80,7 +80,3 @@ GPU (CUDA) used for CNN training: NVIDIA T550 Laptop GPU, PyTorch with CUDA 12.1
 2. The `IQSAMPLES` column in the public dataset is empirically **already power-valued** (non-negative, consistent with the paper's own Complex-to-Mag² step), not raw complex baseband — confirmed via distribution diagnostics, not assumed.
 3. The paper does not specify exact input features for FTLW-RF/FTLW-ANN; a defensible 10-feature set (time-domain statistics + spectral features) was engineered and used consistently across both models.
 4. The paper's Table 3 (simulation, 75% CNN accuracy) and Table 6 (real-time, 92.3% CNN accuracy) report notably different figures for the same model with no reconciliation given — a pre-existing inconsistency in the source paper.
-
-## Author
-
-Arein Jain
